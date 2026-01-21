@@ -1,0 +1,37 @@
+# Arquivos objeto
+*.o
+*.obj
+
+# Binários
+*.out
+*.exe
+*.app
+
+# G++
+*.o
+*a.out
+
+# Bibliotecas
+*.a
+*.so
+*.dll
+*.dylib
+
+# Files-temporary
+*~
+*.swp
+*.swo
+*.bak
+
+# Vim
+*.swp
+*.swo
+*.swn
+*.swx
+Session.vim
+
+# Logs-trash
+*.log
+*.tmp
+.cache/
+
