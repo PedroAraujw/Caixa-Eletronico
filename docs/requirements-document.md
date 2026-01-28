@@ -35,7 +35,7 @@ Depois que o ATM autentica o usuário, o menu principal exibe uma opção numera
 
 Se o usuário inserir uma opção inválida, a tela exibe uma mensagem de erro e então reexibe o menu principal. Se o usuário inserir 1 para fazer uma consulta de saldos, a tela exibe o saldo da conta do usuário. Para fazer isso, o ATM deve recuperar o saldo a partir do banco de dados do banco.
 
-Main menu:
+-Main menu:
 1 - View my balance
 2 - Withdraw cash
 3 - Deposit funds
@@ -54,7 +54,7 @@ _Menu principal do ATM._
 9. Se a quantia de saque escolhida for menor ou igual ao saldo da conta do usuário, o ATM prossegue. Se o usuário optar por cancelar a transação (opção 6), o ATM exibe o menu principal e espera pela entrada do usuário.
 10. Se o dispensador de cédulas contiver dinheiro suficiente para atender à solicitação, o ATM prossegue. Do contrário, a tela exibe uma mensagem indicando o problema e solicitando que o usuário escolha uma quantia de saque menor. O ATM retorna então ao passo 1.
 
-Withdrawal options:
+-Withdrawal options:
 1 - $20 4 - $100
 2 - $40 5 - $200
 3 - $60 6 - Cancel transaction
