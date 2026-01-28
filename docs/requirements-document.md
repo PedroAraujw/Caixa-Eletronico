@@ -79,4 +79,3 @@ _Menu de saque do ATM._
 17. Se a abertura de depósito receber um envelope dentro de dois minutos, o ATM credita a quantia de depósito ao saldo da conta do usuário no banco de dados do banco. Caso contrário, a tela exibe uma mensagem informando que o sistema cancelou a transação devido à inatividade.
 
 Depois que o sistema realiza com sucesso uma transação, ele deve reexibir o menu principal para que o usuário possa realizar outras transações. Se o usuário escolher sair do sistema (opção 4), a tela exibe uma mensagem de agradecimento e então exibe a mensagem de boas-vindas para o próximo usuário.
-- [  ] Criar diagramas. 
