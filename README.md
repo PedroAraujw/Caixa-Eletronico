@@ -33,6 +33,13 @@ Aplicar conceitos básicos de **orientação a objetos** e organização de soft
 
 ---
 
+## Nota
+
+O projeto deve ser analisado sob a perspectiva de **engenharia de software e OOD**,
+e não como um sistema bancário real.
+
+---
+
 ## Compilação
 
     g++ -Iinclude src/*.cpp -o caixa_eletronico
