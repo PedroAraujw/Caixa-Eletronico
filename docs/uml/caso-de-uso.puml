@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+
+actor "Cliente" as Cliente 
+
+rectangle "Sistema Caixa Eletrônico (ATM)"{
+    usecase "Consultar saldo" as UC_Saldo
+    usecase "Sacar dinheiro" as UC_Sacar
+    usecase "Depositar Fundos" as UC_Deposito
+} 
+Cliente --> UC_Saldo
+Cliente --> UC_Sacar 
+Cliente --> UC_Deposito
+
+@enduml
