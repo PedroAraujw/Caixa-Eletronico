@@ -29,7 +29,15 @@ Aplicar conceitos básicos de **orientação a objetos** e organização de soft
     ├── src/         # Implementação (.cpp)
     ├── build/       # Arquivos gerados
     ├── README.md
-    └── LICENSE
+    └── LICENSE #MIT
+
+---
+
+## Documentação UML
+
+A modelagem do sistema foi realizada utilizando **PlantUML**, permitindo que os diagramas UML sejam descritos de forma textual e versionados junto ao código-fonte.
+
+Os diagramas fazem parte do estudo de caso e encontram-se no diretório `docs/uml/`.
 
 ---
 
